@@ -39,3 +39,14 @@
     margin: 0 0 0 -1px;
     line-height: 1.4;
 }
+
+
+/* PÁGINA LOGIN */
+
+#login {
+    background-image: url(../images/bg-login-mobile.png);
+    min-height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
