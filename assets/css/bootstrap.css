@@ -3,3 +3,14 @@
 .btn {
     border-radius: 10px;
 }
+
+/* FORMULÁRIO */
+.form-control {
+    border-radius: 0 !important;
+    text-transform: uppercase !important;
+    font-size: 13px !important;
+}
+.form-check-input:checked {
+    background-color: #8EC641;
+    border-color: #8EC641;
+}
