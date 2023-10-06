@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Roboto-regular';
-    src: url(../assets/fonts/Roboto-Regular.ttf); /* DEIXAR EM ../ PARA SUBIR PARA WEB */
+    src: url(assets/fonts/Roboto-Regular.ttf); /* DEIXAR EM ../ PARA SUBIR PARA WEB */
 }
 @font-face {
     font-family: 'Roboto-black';
