@@ -1,0 +1,41 @@
+
+
+.fs-small {
+    font-size: 13px;
+}
+
+
+/* PÁGINA NÃO LOGADA */
+
+.banner-principal-nao-logado {
+    background-image: url(../images/banner-promocao-seu-dinheiro-de-volta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 483px;
+    margin: 4rem 0 0 0;
+}
+.bg-como-participar {
+    background-image: url(../images/bg-como-participar-nao-logada.png);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.passo-a-passo img {
+    min-width: 122px;
+    max-height: 122px;
+}
+.passo {
+    background-color: #FAA71B;
+    border-radius: 40px;
+    width: 53px;
+    height: 53px;
+}
+.passo span {
+    color: white;
+    font-size: 40PX;
+    font-weight: 900;
+    margin: 0 0 0 -1px;
+    line-height: 1.4;
+}
