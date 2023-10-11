@@ -41,6 +41,14 @@
 }
 
 
+
+/* PÁGINA CADASTRE-SE*/
+#bg-cadastre {
+    background-image: linear-gradient(#FEB305, #FFE50A);
+}
+
+
+
 /* PÁGINA LOGIN */
 
 #login {
@@ -49,4 +57,32 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+
+/* PÁGINA LOGADA */
+
+                                                /* MENU */
+.foto-usuario-menu {
+    background-image: url(../images/avatar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid #FAA71B;
+    width: 111px;
+    height: 111px;
+    border-radius: 25em;
+}
+
+.banner-principal-logado {
+    background-image: url(../images/logado/BANNER_01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 483px;
+    margin: 4rem 0 0 0;
+}
+.bg-yellow-gradient {
+    background-image: linear-gradient(#FEB305, #FFE50A);
+
 }

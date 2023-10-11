@@ -40,6 +40,9 @@ body {
 .bg-orange-1 {
     background-color: #FAA71B;
 }
+.bg-orange-2 {
+    background-color: #FFC159;
+}
 .bg-green-1 {
     background-color: #8EC641;
 }
@@ -60,12 +63,16 @@ body {
 .yellow-2 {                /* GERALMENTE USADO PARA TEXTO DE BOTÕES */
     color: #F6E663; 
 }
+.orange-1 {
+    color: #FAA71B;
+}
 .blue-1 {
     color: #000555;
 }
-
-
-/* PÁGINA CADASTRE-SE*/
-#bg-cadastre {
-    background-image: linear-gradient(#FEB305, #FFE50A);
+.blue-2 {
+    color: #0751A0;
 }
+.red-1 {
+    color: #EC1F31;
+}
+

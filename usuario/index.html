@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa Helena - Logado</title>
+    <link rel="stylesheet" href="/assets/bootstrap/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <script src="/assets/bootstrap/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/mobile.css">
+    <link rel="stylesheet" href="/assets/css/standart.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+</head>
+<body>
+    <!-- NAV LOGIN-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-blue-1">
+        <div class="container-fluid">
+          <a class="navbar-brand"><img src="/assets/images/logo-santa-helena-nao-logado.png" alt="Logo Santa Helena"></a>
+          <div class="d-flex" role="search">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <img src="/assets/images/menu.png" alt="">
+            </button>
+
+            <!-- MENU OFF CANVAS -->
+            <div class="offcanvas offcanvas-end bg-orange-1" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header bg-orange-2">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                  <button type="button" class="btn red-1 fs-small fw-bold" data-bs-dismiss="offcanvas" aria-label="Close">Fechar</button>
+                </div>
+                <div class="d-flex justify-content-around align-items-center bg-orange-2 h-auto py-3">
+                    <div class="foto-usuario-menu"></div>
+                    <div>
+                        <h1 class="blue-1 fw-bold text-center">Thiago Durães</h1>
+                        <h2 class="white-1 text-center">XXXX Pts</h2>
+                    </div>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active fs-4 blue-1" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fs-4 blue-1" aria-current="page" href="#">Minha Conta</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fs-4 blue-1" aria-current="page" href="#">Enviar Cupom Fiscal</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fs-4 blue-1" aria-current="page" href="#">Extrato</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fs-4 blue-1" aria-current="page" href="#">Regulamento</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fs-4 blue-1" aria-current="page" href="#">Resgate</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fs-4 blue-1" aria-current="page" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fs-4 blue-1" aria-current="page" href="#">Fale Conosco</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fs-4 red-1" aria-current="page" href="#">Sair</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li> -->
+                  </ul>
+                </div>
+                <div class="logo-menu d-flex justify-content-around">
+                    <img src="/assets/images/logo-santa-helena-nao-logado.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- BANNER PRINCIPAL NÃO LOGADO MOBILE-->
+      <section class="banner-principal-logado">
+      </section>
+
+
+      <!-- SEU SALDO ATUAL -->
+      <section class="bg-yellow-gradient px-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 d-flex justify-content-around">
+                    <h1 class="blue-2 text-uppercase fw-bold text-center">Seu saldo atual é</h1>
+                </div>
+                <div class="col-sm-12 mb-2">
+                    <div class="bg-white-1 rounded-5 px-3 py-3">
+                        <h3 class="red-1 fs-1 text-center mb-0">XXXX Pts</h3>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <p class="blue-1 text-center fs-small mb-3">Você precisa aculumar mais XX Pontos<br>
+                        para habilitar o resgate!</p>
+                </div>
+                <div class="col-sm-12 d-flex justify-content-around">
+                    <button class="btn bg-blue-3 yellow-2 text-uppercase rounded-4 px-3 py-3">ver meu extrato completo</button>
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+      <!-- ENVIAR CUPOM FISCAL -->
+      <section class="bg-blue-1 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 d-flex justify-content-around mb-3">
+                    <img src="/assets/images/logado/cupom-fiscal.png" alt="">
+                </div>
+                <div class="col-sm-12 d-flex justify-content-around">
+                    <button class="btn bg-yellow-1 text-uppercase rounded-4 px-3 py-3 blue-2">clique aqui e ENVIE<br> seu cupom fiscal</button>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+
+        <!-- ILUSTRAÇÃO PROMOÇÃO -->
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 p-0 m-0">
+                        <img src="/assets/images/ilustracao-promocao-nao-logada.png" alt="" class="w-100">
+                    </div>
+                </div>
+            </div>
+          </section>
+          
+
+     <!-- PRODUTOS PARTICIPANTES -->
+     <section class="bg-yellow-1 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="roboto-black text-uppercase text-center blue-1">produtos participantes</h1>
+                    <p class="blue-1 text-center">Conheça nossos produtos participantes: Amindus,
+                        Mendorato e Crokíssimo. Esta promoção é válida
+                        apenas para a compra de fardos. Os pontos que
+                        você adquirir ao comprar os fardos podem ser
+                        utilizados diretamente através da sua conta digital.</p>
+                </div>
+                <div class="col-sm-12 d-flex justify-content-center">
+                    <img src="/assets/images/amendoins.png" alt="">
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+     <!-- FAQ   -->
+     <article class="bg-blue-1 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 mb-3">
+                    <h1 class="white-1 text-uppercase text-center fw-bold">Perguntas <br>frequentes</h1>
+                </div>
+                <div class="col-sm-12">
+                    
+     <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header bg-blue-2 white-1" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Como faço para comprar na loja?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header bg-blue-1" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Não consigo enviar a nota fiscal, o que devo fazer?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header bg-blue-2" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Como acesso minha conta?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header bg-blue-1" id="flush-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              Como funciona o resgate?
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header bg-blue-2" id="flush-headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              Comprei meio fardo, a compra é acumulativa?
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header bg-blue-1" id="flush-headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+              Qual a validade da campanha?
+            </button>
+          </h2>
+          <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header bg-blue-2" id="flush-headingSeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+              Como possuo PIX, como posso receber?
+            </button>
+          </h2>
+          <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
+                </div>
+            </div>
+        </div>
+     </article>
+
+      <!-- LOGO E REDES SOCIAIS -->
+      <section class="bg-blue-1 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 d-flex justify-content-center mb-4">
+                    <img src="/assets/images/logo-santa-helena-2x.png" alt="Logo Santa Helena" class="w-auto">
+                </div>
+                <div class="col-sm-12 d-flex justify-content-center">
+                   <div>
+                        <a href="#" class="mx-2">
+                            <img src="/assets/images/instagram.png" alt="">
+                        </a>
+                        <a href="#" class="mx-2">
+                            <img src="/assets/images/linkedin.png" alt="">
+                        </a>
+                        <a href="#" class="mx-2">
+                            <img src="/assets/images/facebook.png" alt="">
+                        </a>
+                   </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- INSTAGRAM -->
+      <section class="bg-blue-2 py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 d-flex justify-content-center mb-3">
+                    <img src="/assets/images/instagram-2.png" alt="Instagram Santa Helena">
+                </div>
+                <div class="col-sm-12 white-1 d-flex justify-content-around">
+                    <p><a href="#" class="white-1">@crokissimo</a></p>
+                    <p><a href="#" class="white-1">@amindusoficial</a></p>
+                    <p><a href="#" class="white-1">@medoratooficial</a></p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Rodapé -->
+      <footer class="bg-blue-1 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 d-flex justify-content-around">
+                    <p><a href="#"  class="white-1 text-uppercase fs-small">política de privacidade</a></p>
+                    <p><a href="#"  class="white-1 text-uppercase fs-small">fale conosco</a></p>
+                </div>
+            </div>
+        </div>
+      </footer>
+</body>
+</html>

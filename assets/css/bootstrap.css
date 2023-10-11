@@ -14,3 +14,32 @@
     background-color: #8EC641;
     border-color: #8EC641;
 }
+
+/* MENU */
+
+.nav-link {
+    border-bottom: 1px solid #FAD612;
+    padding: 15px 0;
+}
+
+/* ACCORDION */
+
+.accordion {
+    --bs-accordion-bg: none;
+    --bs-accordion-btn-color: #FAD612;
+}
+.accordion-button {
+    font-size: 20px;
+
+}
+.accordion-header {
+    border-bottom: 1px solid #FAD612;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #FAA71B;
+    color: #000555;
+}
+.accordion-body {
+    background-color: #FFF;
+    color: #000555;
+}
