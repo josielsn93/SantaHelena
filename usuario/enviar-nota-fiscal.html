@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Santa Helena - Extrato</title>
+    <title>Santa Helena - Enviar NF</title>
     <link rel="stylesheet" href="/assets/bootstrap/bootstrap-5.2.3-dist/css/bootstrap.min.css">
     <script src="/assets/bootstrap/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="/assets/css/mobile.css">
@@ -36,16 +36,16 @@
                 <div class="offcanvas-body d-lg-none">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link active fs-4 blue-1" aria-current="page" href="index.html">Home</a>
+                      <a class="nav-link active fs-4 blue-1" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link fs-4 blue-1" aria-current="page" href="minha-conta.html">Minha Conta</a>
+                      <a class="nav-link fs-4 blue-1" aria-current="page" href="#">Minha Conta</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link fs-4 blue-1" aria-current="page" href="#">Enviar Cupom Fiscal</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link fs-4 blue-1" aria-current="page" href="extrato.html">Extrato</a>
+                      <a class="nav-link fs-4 blue-1" aria-current="page" href="#">Extrato</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link fs-4 blue-1" aria-current="page" href="#">Regulamento</a>
@@ -57,10 +57,10 @@
                       <a class="nav-link fs-4 blue-1" aria-current="page" href="#">FAQ</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link fs-4 blue-1" aria-current="page" href="fale-conoco.html">Fale Conosco</a>
+                      <a class="nav-link fs-4 blue-1" aria-current="page" href="#">Fale Conosco</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link fs-4 red-1" aria-current="page" href="/index.html">Sair</a>
+                      <a class="nav-link fs-4 red-1" aria-current="page" href="#">Sair</a>
                     </li>
                     <!-- <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -86,51 +86,113 @@
         </div>
       </nav>
 
-      <!-- LANÇAMENTOS -->
-     <section class="bg-white-1 py-5 mt-5">
+      <!--ENVIE SUA NOTA FISCAL -->
+      <section class="pt-5 mt-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-12">
-                    <h4 class="blue-2 roboto-black text-uppercase text-center">veja o extrato de seus lançamentos:</h4>
-                    <p class="gray-1 text-center fs-small">Data de início: 10/10/2023</p>
+                    <h4 class="blue-2 roboto-black text-center text-uppercase">envie sua notA fiscal</h4>
+                    <p class="gray-1 text-center text-uppercase fs-small">PRENCHA OS CAMPOS ABAIXO E<br> ENVIE A FOTO DA SUA NOTA FISCAL</p>
                 </div>
             </div>
         </div>
+      </section>
+
+      <!--FORM ENVIO DE NOTA -->
+      <section class="mb-5">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link active px-3" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">08/2023</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link px-3" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">09/2023</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link px-3" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">10/2023</button>
-                        </li>
-                        <li class="nav-item px-3" role="presentation">
-                          <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Disabled</button>
-                        </li>
-                      </ul>
-                      <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active py-5" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                            <h2 class="blue-2 text-center text-uppercase lh-10">nenhuma<br>
-                                movimentação<br>
-                                para mostrar</h2>
-                        <div id="pontos">
-                            <p class="gray-1 fs-small text-center">Total de pontos: <span class="orange-1">0,00</span></p>
-                            <p class="gray-1 fs-small text-center">Para eventuais esclarecimentos de dúvidas ou mais informações, acesse o <a href="" class="orange-1">FAQ</a> ou entre em contato em: <br> <a href="mailto:contato@promocrokissimo.com.br" class="orange-1">contato@promocrokissimo.com.br</a></p>
+                    <form>
+                        <div class="mb-3">
+                          <input type="number" class="form-control" id="" aria-describedby="emailHelp" placeholder="*CNPJ  do cupom  fiscal">
                         </div>
+                        <div class="mb-3">
+                          <input type="number" class="form-control" id="" placeholder="*DATA DE EMISSÃO Do cupom FISCAL">
                         </div>
-                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
-                        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
-                        <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
-                      </div>
+                        <div class="mb-5">
+                          <input type="number" class="form-control" id="" placeholder="*NÚMERO Do cupom fiscal">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-check-label gray-1 text-center" for="exampleCheck1">SELECIONE O(S) PRODUTO(S) COMPRADO(S):</label>
+                        </div>
+                        <div class="mb-3 form-check d-flex justify-content-around align-items-center">
+                           <div class="col-sm-6">
+                            <input type="checkbox" class="form-check-input" id="CROKISSÍMO">
+                            <label class="form-check-label" for="CROKISSÍMO">CROKISSÍMO</label>
+                           </div>
+                           <div class="col-sm-6">
+                          <input type="number" class="form-control" id="" placeholder="Quantidade">
+                           </div>
+                          </div>
+                        <div class="mb-3 form-check d-flex justify-content-around align-items-center">
+                           <div class="col-sm-6">
+                            <input type="checkbox" class="form-check-input" id="MENDORATO">
+                            <label class="form-check-label" for="MENDORATO">MENDORATO</label>
+                           </div>
+                           <div class="col-sm-6">
+                          <input type="number" class="form-control" id="" placeholder="Quantidade">
+                           </div>
+                          </div>
+                        <div class="mb-3 form-check d-flex justify-content-around align-items-center">
+                           <div class="col-sm-6">
+                            <input type="checkbox" class="form-check-input" id="AMINDUS">
+                            <label class="form-check-label" for="AMINDUS">AMINDUS</label>
+                           </div>
+                           <div class="col-sm-6">
+                          <input type="number" class="form-control" id="" placeholder="Quantidade">
+                           </div>
+                          </div>
+                          <div class="mb-5">
+                          <input type="number" class="form-control" id="" placeholder="Valor">
+                          </div>
+                          <div class="mb-3">
+                            <h4 class="text-center yellow-1 roboto-black text-uppercase">atenção</h4>
+                            <p class="gray-1 text-center fs-small">Tire a foto da sua nota priorizando o QRCODE.
+                                É importante que o mesmo encontre-se legível para a validade da nota.</p>
+                            <p class="gray-1 text-center fs-small">O formato do arquivo (cupom fiscal) a ser enviado deverá ser, obrigatoriamente, JPG ou JPEG ou PNG.</p>
+                          </div>
+                          <div class="mb-3">
+                            <h4 class="gray-1 roboto-black text-center text-uppercase">subir imagem da nota</h4>
+                          </div>
+                          <div class="mb-3 d-flex justify-content-around">
+                            <a href="#">
+                                <img src="/assets/images/logado/acessar-galeria.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="/assets/images/logado/tirar-foto.png" alt="">
+                            </a>
+                          </div>
+                          <div class="mb-3">
+                            <p class="orange-1 fs-small text-center">ArquivoEscolhido.jpg</p>
+                          </div>
+                       <div class="mb-3 d-flex justify-content-around">
+                        <button type="submit" class="btn bg-yellow-1 blue-2 text-uppercase px-5 py-2">Enviar</button>
+                       </div>
+                      </form>
                 </div>
             </div>
         </div>
-     </section>
+      </section>
+
+
+      <!--ESTA COM DIFICULDADES? -->
+      <section class="mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="row justify-content-around">
+                    <div class="col-sm-12">
+                        <h4 class="orange-1 text-uppercase text-center roboto-black">está com dificuldades para fazer o envio?</h4>
+                    </div>
+                    <div class="col-sm-12">
+                        <a href="#" target="_blank">
+                            <img src="/assets/images/logado/contato-whatsapp-nf.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
 
       <!-- LOGO E REDES SOCIAIS -->
       <section class="bg-blue-1 py-5">
@@ -178,7 +240,7 @@
             <div class="row">
                 <div class="col-sm-12 d-flex justify-content-around">
                     <p><a href="#"  class="white-1 text-uppercase fs-small">política de privacidade</a></p>
-                    <p><a href="fale-conoco.html"  class="white-1 text-uppercase fs-small">fale conosco</a></p>
+                    <p><a href="#"  class="white-1 text-uppercase fs-small">fale conosco</a></p>
                     <p><a href="#"  class="white-1 text-uppercase fs-small">regulamento</a></p>
                 </div>
             </div>
