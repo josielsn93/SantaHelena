@@ -75,4 +75,12 @@ body {
 .red-1 {
     color: #EC1F31;
 }
+.gray-1 {
+    color: #636363;
+}
 
+
+/* LINHA */
+.lh-10 {
+    line-height: 3rem;
+}
