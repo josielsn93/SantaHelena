@@ -167,7 +167,7 @@
                             <p class="orange-1 fs-small text-center">ArquivoEscolhido.jpg</p>
                           </div>
                        <div class="mb-3 d-flex justify-content-around">
-                        <button type="submit" class="btn bg-yellow-1 blue-2 text-uppercase px-5 py-2">Enviar</button>
+                        <button type="submit" class="btn bg-yellow-1 blue-2 text-uppercase px-5 py-2" data-bs-toggle="modal" data-bs-target="#pupup-cupom-invalido">Enviar</button>
                        </div>
                       </form>
                 </div>
@@ -246,5 +246,47 @@
             </div>
         </div>
       </footer>
+
+
+<!-- POP-UP INVÁLIDO ----------------------------------------------------------------------->
+<div class="modal fade" id="pupup-cupom-invalido" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-orange-1">
+      <div class="modal-body m-0 p-0">
+        <div class="row bg-red-1 m-0 py-4">
+          <div class="col-sm px-3 py-3">
+            <h1 class="text-center white-1 roboto-black text-uppercase fs-1 mb-0">Atenção</h1>
+          </div>
+        </div>
+        <div class="row m-3">
+          <div class="col-sm blue-1 text-center">
+            <p>O cupom de número<br>
+              <span class="fw-bold">(número do cupom)</span><br>
+              não foi validado.</p>
+              <p class="fs-small">Não se preocupe, você pode enviá-lo para
+                uma nova validação pelo WhatsApp.
+                Tente enviar uma foto na qual o QR Code
+                esteja mais visível.</p>
+              <p class="fs-small">Clique abaixo para enviar o cupom novamente.</p>
+              <div class="d-flex justify-content-around my-3">
+                <a href="#" target="_blank">
+                  <img src="/assets/images/logado/contato-whatsapp-nf.png" alt=""></a>
+              </div>
+              <div class="d-flex justify-content-around mb-5">
+                <img src="/assets/images/logo-santa-helena-nao-logado.png" alt="">
+              </div>
+              <div class="d-flex justify-content-around">
+                <a href="#" data-bs-dismiss="modal" class="red-1 fw-bold">
+                  Fechar
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 </body>
 </html>
