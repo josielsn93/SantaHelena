@@ -74,6 +74,13 @@
     border-radius: 25em;
 }
 
+.foto-social-meus-dados img {
+	width: 111px;
+    height: 111px;
+    border-radius: 25em;
+    object-fit: cover
+}
+
 .banner-principal-logado {
     background-image: url(../images/logado/BANNER_01.png);
     background-size: cover;

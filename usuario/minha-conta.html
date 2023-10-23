@@ -54,7 +54,7 @@
                       <a class="nav-link fs-4 blue-1" aria-current="page" href="#">Resgate</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link fs-4 blue-1" aria-current="page" href="#">FAQ</a>
+                      <a class="nav-link fs-4 blue-1" aria-current="page" href="#" data-bs-dismiss="offcanvas">FAQ</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link fs-4 blue-1" aria-current="page" href="fale-conoco.html">Fale Conosco</a>
@@ -125,7 +125,7 @@
             <div class="row justify-content-around">
                 <div class="col-sm-6 d-flex justify-content-around">
                     <button class="btn bg-blue-3 yellow-1 text-uppercase py-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Alterar Cadastro</button>
-                    <button class="btn bg-blue-3 yellow-1 text-uppercase py-2">Alterar senha</button>
+                    <button class="btn bg-blue-3 yellow-1 text-uppercase py-2"  data-bs-toggle="modal" data-bs-target="#staticBackdrop-2">Alterar senha</button>
                 </div>
             </div>
         </div>
@@ -294,11 +294,58 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn fs-small yellow-2 bg-blue-2 text-uppercase px-5 py-2" data-bs-dismiss="modal">Voltar</button>
-          <button class="btn fs-small white-1 bg-green-1 text-uppercase px-5 py-2">enviar</button>
+          <button type="button" class="btn fs-small white-1 bg-green-1 text-uppercase px-5 py-2" >enviar</button>
         </form>
         </div>
       </div>
     </div>
   </div>
+
+  
+  <!-- ALTERAR SENHA -->
+<div class="modal fade" id="staticBackdrop-2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <!-- FORMULÁRIO DE ALTERAR SENHA -->
+      <section class="rounded bg-white-1 py-3 px-3 mx-3">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm">
+                      <form class="needs-validation" novalidate>
+                          <div class="mb-3">
+                              <input type="password" class="form-control" id="nomeCompleto" placeholder="* digite sua senha atual" required>
+                              <div class="invalid-feedback">
+                                  Digite sua senha atual
+                                </div>
+                          </div>
+                          <div class="mb-3">
+                            <label class="form-label text-uppercase fs-small">Nova senha:</label>
+                          </div>
+                          <div class="mb-3">
+                              <input type="password" class="form-control" id="CPF/CNPJ" placeholder="* digite uma nova senha" required>
+                              <div class="invalid-feedback">
+                                  Digite uma nova senha 
+                              </div>
+                          </div>
+                          <div class="mb-3">
+                              <input type="password" class="form-control" id="email" placeholder="* digite novamente a nova senha" required>
+                              <div class="invalid-feedback">
+                                  Senha diferente, digite novamente
+                                </div>
+                          </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn fs-small yellow-2 bg-blue-2 text-uppercase px-5 py-2" data-bs-dismiss="modal">cancelar</button>
+        <button class="btn fs-small white-1 bg-green-1 text-uppercase px-5 py-2">confirmar</button>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>

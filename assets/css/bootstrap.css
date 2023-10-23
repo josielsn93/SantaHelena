@@ -43,3 +43,8 @@
     background-color: #FFF;
     color: #000555;
 }
+
+/* TABLE */
+.table {
+    border: 1px solid #DADADA;
+}
