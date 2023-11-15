@@ -4,22 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santa Helena - Logado</title>
-    <link rel="stylesheet" href="/assets/bootstrap/bootstrap-5.2.3-dist/css/bootstrap.min.css">
-    <script src="/assets/bootstrap/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="/assets/css/mobile.css">
-    <link rel="stylesheet" href="/assets/css/standart.css">
-    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="/SantaHelena/assets/bootstrap/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <script src="/SantaHelena/assets/bootstrap/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/SantaHelena/assets/css/mobile.css">
+    <link rel="stylesheet" href="/SantaHelena/assets/css/desktop.css">
+    <link rel="stylesheet" href="/SantaHelena/assets/css/standart.css">
+    <link rel="stylesheet" href="/SantaHelena/assets/css/bootstrap.css">
 </head>
 <body>
     <!-- NAV LOGIN-->
     <nav class="navbar navbar-expand-lg fixed-top bg-blue-1">
         <div class="container-fluid">
-          <a class="navbar-brand"><img src="/assets/images/logo-santa-helena-nao-logado.png" alt="Logo Santa Helena"></a>
+          <a class="navbar-brand"><img src="/SantaHelena/assets/images/logo-santa-helena-nao-logado.png" alt="Logo Santa Helena" class="logo-desktop"></a>
           <div class="d-flex" role="search">
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <img src="/assets/images/menu.png" alt="">
+            <img src="/SantaHelena/assets/images/menu.png" alt="" >
             </button>
-
+            <div class="d-lg-flex d-none">
+                <div>
+                    <p class="orange-1 fw-bold text-center mb-0">Thiago Durães</p>
+                    <p class="white-1 text-center mb-0">XXXX Pts</p>
+                    <p class="orange-1 text-center text-uppercase">Sair</p>
+                </div>
+                <div class="foto-usuario-menu-desktop"></div>
+            </div>
             <!-- MENU OFF CANVAS -->
             <div class="offcanvas offcanvas-end bg-orange-1" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header bg-orange-2">
@@ -48,7 +56,7 @@
                       <a class="nav-link fs-4 blue-1" aria-current="page" href="#">Extrato</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link fs-4 blue-1" aria-current="page" href="/assets/dowloads/regulamento SANTA HELENA- 20-10 pdf.pdf">Regulamento</a>
+                      <a class="nav-link fs-4 blue-1" aria-current="page" href="/SantaHelena/assets/dowloads/regulamento SANTA HELENA- 20-10 pdf.pdf">Regulamento</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link fs-4 blue-1" aria-current="page" href="#">Resgate</a>
@@ -78,7 +86,7 @@
                   </ul>
                 </div>
                 <div class="d-lg-none logo-menu d-flex justify-content-around">
-                    <img src="/assets/images/logo-santa-helena-nao-logado.png" alt="">
+                    <img src="/SantaHelena/assets/images/logo-santa-helena-nao-logado.png" alt="">
                 </div>
               </div>
             </div>
@@ -86,8 +94,48 @@
         </div>
       </nav>
 
+      <!--NAV DESKTOP-->
+      <nav class="navbar navbar-expand-lg bg-orange-1 d-none d-lg-flex fixed-top" style="margin-top: 104px;">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link nav-link-desktop active black-1" aria-current="page" href="#">Home &nbsp;&nbsp;|</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link black-1" href="#">Minha conta &nbsp;&nbsp;| </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link black-1" href="#">Enviar cupom fiscal &nbsp;&nbsp;|</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link black-1" href="#">Extrato &nbsp;&nbsp;|</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link black-1" href="#">Regulamento &nbsp;&nbsp;|</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link black-1" href="#">Resgate &nbsp;&nbsp;|</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link black-1" href="#">FAQ &nbsp;&nbsp;|</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link black-1" href="#">Fale Conosco</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+
       <!-- BANNER PRINCIPAL NÃO LOGADO MOBILE-->
-      <section class="banner-principal-logado">
+      <section class="banner-principal-logado d-lg-none">
+      </section>
+
+      <!-- BANNER PRINCIPAL NÃO LOGADO DESKTOP-->
+      <section class="banner-principal-logado-desktop d-none d-lg-flex">
       </section>
 
 
@@ -95,10 +143,10 @@
       <section class="bg-yellow-gradient px-5 py-5">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 d-flex justify-content-around">
+                <div class="col-sm-12 col-lg-6 d-flex justify-content-around align-items-center">
                     <h1 class="blue-2 text-uppercase fw-bold text-center">Seu saldo atual é</h1>
                 </div>
-                <div class="col-sm-12 mb-2">
+                <div class="col-sm-12 col-lg-6 mb-2">
                     <div class="bg-white-1 rounded-5 px-3 py-3">
                         <h3 class="red-1 fs-1 text-center mb-0">XXXX Pts</h3>
                     </div>
@@ -119,10 +167,10 @@
 
       <!-- ENVIAR CUPOM FISCAL -->
       <section class="bg-blue-1 py-5">
-        <div class="container">
+        <div class="container d-lg-none">
             <div class="row">
                 <div class="col-sm-12 d-flex justify-content-around mb-3">
-                    <img src="/assets/images/logado/cupom-fiscal.png" alt="">
+                    <img src="/SantaHelena/assets/images/logado/cupom-fiscal.png" alt="">
                 </div>
                 <div class="col-sm-12 d-flex justify-content-around">
                     <a href="enviar-nota-fiscal.html">
@@ -131,6 +179,14 @@
                 </div>
             </div>
         </div>
+      <!-- ENVIAR CUPOM FISCAL DESKTOP-->
+        <div class="container d-none d-lg-block">
+          <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <img src="/SantaHelena/assets/images/enviar-cupom-desktop.png" alt="">
+            </div>
+          </div>
+        </div>
       </section>
       
 
@@ -138,8 +194,12 @@
         <section>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-12 p-0 m-0">
-                        <img src="/assets/images/ilustracao-promocao-nao-logada.png" alt="" class="w-100">
+                    <div class="col-sm-12 p-0 m-0 d-lg-none">
+                        <img src="/SantaHelena/assets/images/ilustracao-promocao-nao-logada.png" alt="" class="w-100">
+                    </div>
+                    <!-- DESKTOP -->
+                    <div class="col-sm-12 p-0 m-0 d-none d-lg-flex">
+                        <img src="/SantaHelena/assets/images/ilustracao-promocao-nao-logada-desktop.png" alt="" class="w-100">
                     </div>
                 </div>
             </div>
@@ -150,16 +210,18 @@
      <section class="bg-yellow-1 py-5">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-lg-6 d-flex align-items-center">
+                   <div>
                     <h1 class="roboto-black text-uppercase text-center blue-1">produtos participantes</h1>
                     <p class="blue-1 text-center">A promoção é válida apenas na compra de fardos
                       dos produtos participantes: Amindus, Mendorato e
                       Crokíssimo. Os pontos adquiridos poderão ser
                       utilizados através da sua conta digital. Saiba mais
                       através do <a href="#" target="_blank" rel="noopener noreferrer"> REGULAMENTO</a> da campanha.</p>
+                   </div>
                 </div>
-                <div class="col-sm-12 d-flex justify-content-center">
-                    <img src="/assets/images/amendoins.png" alt="">
+                <div class="col-sm-12 col-lg-6 d-flex justify-content-center">
+                    <img src="/SantaHelena/assets/images/amendoins.png" alt="">
                 </div>
             </div>
         </div>
@@ -242,7 +304,7 @@
           </h2>
           <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">Confira o passo a passo: <a href="https://picpay.com/apps" target="_blank" rel="noopener noreferrer" class="fw-bold">clique aqui</a>.<br>
-              Ou baixe o PDF: <a href="/assets/dowloads/Instalar_app_e_cadastrar.pdf" target="_blank" rel="noopener noreferrer" class="fw-bold">clique aqui</a>
+              Ou baixe o PDF: <a href="/SantaHelena/assets/dowloads/Instalar_app_e_cadastrar.pdf" target="_blank" rel="noopener noreferrer" class="fw-bold">clique aqui</a>
             </div>
           </div>
         </div>
@@ -292,18 +354,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 d-flex justify-content-center mb-4">
-                    <img src="/assets/images/logo-santa-helena-2x.png" alt="Logo Santa Helena" class="w-auto">
+                    <img src="/SantaHelena/assets/images/logo-santa-helena-2x.png" alt="Logo Santa Helena" class="w-auto">
                 </div>
                 <div class="col-sm-12 d-flex justify-content-center">
                    <div>
                         <a href="#" class="mx-2">
-                            <img src="/assets/images/instagram.png" alt="">
+                            <img src="/SantaHelena/assets/images/instagram.png" alt="">
                         </a>
                         <a href="#" class="mx-2">
-                            <img src="/assets/images/linkedin.png" alt="">
+                            <img src="/SantaHelena/assets/images/linkedin.png" alt="">
                         </a>
                         <a href="#" class="mx-2">
-                            <img src="/assets/images/facebook.png" alt="">
+                            <img src="/SantaHelena/assets/images/facebook.png" alt="">
                         </a>
                    </div>
                 </div>
@@ -316,7 +378,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 d-flex justify-content-center mb-3">
-                    <img src="/assets/images/instagram-2.png" alt="Instagram Santa Helena">
+                    <img src="/SantaHelena/assets/images/instagram-2.png" alt="Instagram Santa Helena">
                 </div>
                 <div class="col-sm-12 white-1 d-flex justify-content-around">
                     <p><a href="https://www.instagram.com/crokissimo/" target="_blank" class="white-1">@crokissimo</a></p>
@@ -334,7 +396,7 @@
                 <div class="col-sm-12 d-flex justify-content-around">
                     <p><a href="#"  class="white-1 text-uppercase fs-small">política de privacidade</a></p>
                     <p><a href="fale-conoco.html"  class="white-1 text-uppercase fs-small">fale conosco</a></p>
-                    <p><a href="/assets/dowloads/regulamento SANTA HELENA- 20-10 pdf.pdf"  class="white-1 text-uppercase fs-small">regulamento</a></p>
+                    <p><a href="/SantaHelena/assets/dowloads/regulamento SANTA HELENA- 20-10 pdf.pdf"  class="white-1 text-uppercase fs-small">regulamento</a></p>
                 </div>
             </div>
         </div>

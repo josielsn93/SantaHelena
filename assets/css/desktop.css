@@ -1,0 +1,29 @@
+.banner-principal-nao-logado-desktop {
+    background-image: url(/SantaHelena/assets/images/banner-principal-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    margin: 4rem 0 0 0;
+}
+.banner-principal-logado-desktop {
+    background-image: url(/SantaHelena/assets/images/banner-principal-logada-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    margin: 10rem 0 0 0;
+}
+.foto-usuario-menu-desktop {
+    background-image: url(../images/avatar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid #FAA71B;
+    width: 70px;
+    height: 70px;
+    border-radius: 25em;
+}
+.logo-desktop {
+    width: 110px;
+}

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/bootstrap/bootstrap-5.2.3-dist/css/bootstrap.min.css">
     <script src="/assets/bootstrap/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="assets/css/desktop.css">
     <link rel="stylesheet" href="assets/css/standart.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
 </head>
@@ -23,7 +24,11 @@
       </nav>
 
       <!-- BANNER PRINCIPAL NÃO LOGADO MOBILE-->
-      <section class="banner-principal-nao-logado">
+      <section class="banner-principal-nao-logado d-lg-none">
+      </section>
+
+      <!-- BANNER PRINCIPAL NÃO LOGADO MOBILE-->
+      <section class="banner-principal-nao-logado-desktop">
       </section>
 
       <!-- CHAMADO PROMOCIAL CADASTRO -->
@@ -56,8 +61,9 @@
                     <p class="yellow-1 text-center text-uppercase">siga o passo a passo abaixo:</p>
                 </div>
             </div>
+            <!-- PASSO 1-->
             <div class="row justify-content-center">
-                <div class="col-sm-12 d-flex justify-content-center mb-5">
+                <div class="col-sm-12 col-lg-4 d-flex justify-content-center mb-5">
                     <div class="passo px-3"><span class="text-center">1</span></div>
                     <div class="descricao-passo px-3 me-5">
                         <img src="assets/images/passo-1.png" alt="Passo 1">
@@ -65,21 +71,20 @@
                     </div>
                 </div>
                 <!-- PASSO 2-->
-                <div class="col-sm-12 d-flex justify-content-center">
+                <div class="col-sm-12 col-lg-4 d-flex justify-content-center">
                     <div class="passo px-3"><span class="text-center">2</span></div>
                     <div class="descricao-passo px-3 me-5">
                         <img src="assets/images/passo-2.png" alt="Passo 2">
-                       
+                        <div class="col-sm-12  mb-5">
+                            <p class="white-1 fs-small text-center text-uppercase mt-2 lh-2 text-break">para ganhar mais dinheiro, compre<br>
+                                fardos das marcas crokissímo,<br>
+                                amindus ou mendorato<br>
+                                (em 1 ou mais cupons fiscais)</p>
+                        </div>
                     </div>
                 </div>
-                <!-- TEXTO PASSO 2-->
-                <div class="col-sm-12 mb-5">
-                    <p class="white-1 fs-small text-center text-uppercase mt-2 lh-2 text-break">para ganhar mais dinheiro, compre<br>
-                        fardos das marcas crokissímo,<br>
-                        amindus ou mendorato<br>
-                        (em 1 ou mais cupons fiscais)</p>
-                </div>
-                <div class="col-12 d-flex justify-content-center mb-5">
+               
+                <div class="col-sm-12  col-lg-4 d-flex justify-content-center mb-5">
                     <div class="passo px-3"><span class="text-center">3</span></div>
                     <div class="descricao-passo px-3 me-5">
                         <img src="assets/images/passo-3.png" alt="Passo 3">
@@ -88,7 +93,7 @@
                             foto de cupom fiscal</p>
                     </div>
                 </div>
-                <div class="col-12 d-flex justify-content-center mb-5">
+                <div class="col-sm-12 col-lg-4 d-flex justify-content-center mb-5">
                     <div class="passo px-3"><span class="text-center">4</span></div>
                     <div class="descricao-passo px-3 me-5">
                         <img src="assets/images/passo-4.png" alt="Passo 4">
@@ -96,20 +101,23 @@
                             do cupom fiscal</p>
                     </div>
                 </div>
-                <div class="w-100"></div>
+                <div class="w-100 d-lg-none"></div>
                 <!-- PASSO 5--> 
-                <div class="col-12 d-flex justify-content-center ">
-                    <div class="passo"><span class="text-center ps-3">5</span></div>
+                <div class="col-sm-12 col-lg-4 d-flex justify-content-center align-items-center">
+                    <div>
+                        <div class="passo"><span class="text-center ps-3">5</span></div>
                     <div class="descricao-passo me-5">
                         <img src="assets/images/passo-5.png" alt="Passo 5">
                     </div>
+                    <div class="col-sm-12 mb-5">
+                        <p class="white-1 fs-small text-center text-uppercase mt-2 lh-2 text-break">entre no whatsapp e solicite<br>
+                            seu dinheiro de volta para<br>
+                            receber via pix.</p>
+                    </div>
+                    </div>
                 </div>
                 <!-- TEXTO PASSO 5-->
-                <div class="col-sm-12 mb-5">
-                    <p class="white-1 fs-small text-center text-uppercase mt-2 lh-2 text-break">entre no whatsapp e solicite<br>
-                        seu dinheiro de volta para<br>
-                        receber via pix.</p>
-                </div>
+                
             </div>
         </div>
       </article>
@@ -118,8 +126,13 @@
       <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-12 p-0 m-0">
+                <!--MOBILE-->
+                <div class="col-sm-12 d-lg-none p-0 m-0">
                     <img src="assets/images/ilustracao-promocao-nao-logada.png" alt="" class="w-100">
+                </div>
+                <!--DESKTOP-->
+                <div class="col-lg-12 d-none d-lg-flex p-0 m-0">
+                    <img src="assets/images/ilustracao-promocao-nao-logada-desktop.png" alt="" class="w-100">
                 </div>
             </div>
         </div>
@@ -129,7 +142,7 @@
       <section class="bg-yellow-1 py-5">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-lg-6">
                     <h1 class="roboto-black text-uppercase text-center blue-1">produtos participantes</h1>
                     <p class="blue-1 text-center">A promoção é válida apenas na compra de fardos
                         dos produtos participantes: Amindus, Mendorato e
@@ -137,7 +150,7 @@
                         utilizados através da sua conta digital. Saiba mais
                         através do <a href="#" target="_blank" rel="noopener noreferrer"> REGULAMENTO</a> da campanha.</p>
                 </div>
-                <div class="col-sm-12 d-flex justify-content-center">
+                <div class="col-sm-12 col-lg-6 d-flex justify-content-center">
                     <img src="assets/images/amendoins.png" alt="">
                 </div>
             </div>
